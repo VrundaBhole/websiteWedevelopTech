@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+}
+.outerMain{
+    border-top: 3px #e58d41 solid;
+    display: flex;
+    justify-content: center;
+}
+.main{
+    width: 1280px;
+    flex-direction: column;
+    /* background-color: blue; */
+}
+.dummyImg{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.dummyImg img{
+    width: 200px;
+    height: auto;
+}
+.mainOuter{
+    display: flex;
+    justify-content: center;
+}
+.insideBox{
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    border-top: 3px black solid;
+    border-bottom: 3px black solid;
+    justify-content: space-evenly;
+    padding: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+
+}
+.highLight{
+    color:  #e58d41;
+}
+.welcome{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+.intro-img{
+    margin-top: 25px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.inner{
+    display: flex;
+    justify-content: center;
+}
+.inner-div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 85%;
+}
+.container div{
+    width: 100%;
+}
+.container img{
+    float: right;
+    margin: 0 20px 20px 20px;
+    width: 350px;
+   height: 240px;
+}
+.text{
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    line-height: 25px;
+    font-weight: 200px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+.btn-in{
+    width: 200px;
+    height: 55px;
+    border: 2px black solid;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 19px;
+}
+.image-gallery{
+    display: flex;
+    justify-content: center;
+
+}
+.inner-image-gallery img{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+.inner-image-gallery{
+    width: 80%;
+    display: flex;
+    
+    justify-content: space-around;
+}
+.text p{
+    padding-top: 5px;
+}
+.copyright-logo{
+    width: 15px;
+    height: 10px;
+}
+.footer{
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+}
+.copyright{
+    display: flex;
+}
+.footer-outer{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    border-top: 3px black solid;
+    border-bottom: 3px black solid;
+    justify-content: space-evenly;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+.line{
+   
+    width: 40px;
+    height: 5px;
+    background-color: black;
+    margin-bottom: 30px;
+}
+.line-div{
+    display: flex;
+    justify-content: center;
+}
+@media only screen and (min-width:425px) and (max-width:768px){
+    .text {
+        margin: 20px;
+    }
+    .inner-image-gallery img{
+       
+        width: 180px;
+        height: 200px;
+
+    }
+    .footer{
+        display: flex;
+        justify-content: space-between; 
+    }
+}
+
+@media only screen and  (max-width:425px){
+    .outerMain{
+        width: auto;
+    }
+    .dummyImg{
+        display: flex;
+        justify-content: flex-start;
+
+    }
+    .dummyImg img{
+       
+        width: 100px;
+        height: 50px;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+    }
+    .text img{
+        width: 200px;
+        height: 100px;
+    }
+    
+    .text p{
+        width: 100%;
+        font-size: 10px;
+    }
+    .intro-img img{
+        width: 100%;
+    }
+    .mainOuter{
+        display: none;
+    }
+    .footer{
+        flex-direction: column;
+    }
+    .footer p{
+        font-size: 10px;
+    }
+    .footer-outer{
+        border-bottom: 8px black solid;
+    }
+    .main{
+        width: 100%;
+    }
+    .inner{
+        width: auto;
+    }
+    .inner-div{
+        width: auto;
+
+    }
+.inner-image-gallery {
+   
+    flex-wrap: wrap;
+    
+}
+.inner-image-gallery img{
+    width: 120px;
+    height: 140px;
+}
+.text {
+    margin: 20px;
+}
+.welcome{
+    font-size: 20px;
+}
+}
